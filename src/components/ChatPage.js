@@ -1,7 +1,6 @@
 import React from 'react';
 import LogOffimg from "../media/logoff.jpg";
 import { Link } from 'react-router-dom';
-import { userData } from '../App';
 import { pushMessage, listenForNewData, DelectChat } from './Firebase';
 function ChatePage() {
     function insertdata() {
