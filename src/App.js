@@ -3,7 +3,7 @@ import ChatPage from "./components/ChatPage";
 
 import { BrowserRouter, Routes, Route,Link} from "react-router-dom";
 import "./appstyles.css"
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ' "./utils/bootstrap-5.3.2-dist/css/bootstrap.mim.css"'
 import LandingForm from "./components/LandingForm";
 import LogoHedder from "./components/LogoHedder";
 import StartChat from "./components/StartChat";
