@@ -1,0 +1,177 @@
+
+
+
+
+/* For WebKit based browsers (e.g., Chrome, Safari) */
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e6d3ba; /* Light brown track color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c6ab86; /* Medium brown thumb color */
+  border-radius: 5px; /* Border radius of the thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a08b68; /* Darker brown thumb color on hover */
+}
+
+/* Handle when dragged */
+::-webkit-scrollbar-thumb:active {
+  background: #7d5e3a; /* Darkest brown thumb color when active */
+}
+
+
+
+
+
+
+
+
+
+.ctp-tym{
+  color: gray;
+}
+.app-headder {
+  padding: 3%;
+  width: 100%;
+  background-color: rgb(29, 122, 209);
+}
+.cpt_logoff{
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 5px;
+top: 5px;
+}
+
+.ctp-msgdiv {
+  display: inline-table;
+  vertical-align: bottom;
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin: 1.5%;
+  border-radius: 10px;
+  background-color: white;
+
+}
+.ctp-username{
+   color: burlywood;
+}
+
+
+.landing-form{
+  width: 90%;
+  padding: 10%;
+  border-radius: 20px;
+}
+.startchat-btn{
+ margin-top: 25%;
+}
+
+
+@media only screen and (max-width: 767px) {
+     
+.ctp-input {
+  font-size: 18px;
+  width: 75%;
+  border: 1px solid;
+
+  padding-left: 2%;
+  height: 45px;
+  border-radius: 20px;
+}
+
+.ctp-sendmsgdiv {
+  display: block;
+  height: 15%;
+  width: 100%;
+  bottom: 1px;
+  position: fixed;
+  padding: 3%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: rgb(243, 245, 236);
+}
+
+.ctp-sendbtn {
+  width: 20%;
+  margin-left: 2%;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 20px;
+
+}
+
+.ctp-msgarea {
+  background-color: rgb(244, 247, 216);
+  height: 103%;
+  width: 100%;
+  padding-bottom: 60%;
+  position: absolute;
+  border: 1px solid;
+  overflow-y: scroll;
+  margin-bottom: 34%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+
+}
+@media only screen and (min-width: 768px) {
+       
+.ctp-input {
+  font-size: 15px;
+  width: 75%;
+  border: 1px solid burlywood;
+
+  padding-left: 2%;
+  height: 45px;
+  border-radius: 10px;
+}
+
+  .ctp-msgarea {
+    background-color: rgb(244, 247, 216);
+    height: 103%;
+    width: 100%;
+    padding-bottom: 20%;
+    position: absolute;
+    border: 1px solid;
+    overflow-y: scroll;
+    margin-bottom: 34%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+ 
+.ctp-sendbtn {
+  width: 15%;
+  margin-left: 2%;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 10px;
+
+} 
+.ctp-sendmsgdiv {
+  display: block;
+  height: 8%;
+  width: 100%;
+  bottom: 1px;
+  position: fixed;
+  padding: 3%;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  background-color: rgb(243, 245, 236);
+}
+}
