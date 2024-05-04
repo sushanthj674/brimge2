@@ -1,5 +1,5 @@
 // Import necessary Firebase modules
-import { initializeApp } from 'firebase';
+import { initializeApp } from 'firebase/app';
 import { username } from './LandingForm';
 import { getDatabase, ref, push, onChildAdded,remove } from 'firebase/database';
 
